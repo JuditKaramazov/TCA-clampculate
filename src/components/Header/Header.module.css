@@ -8,8 +8,21 @@
 
 .logo {
   display: block;
-  max-width: 500px;
+  max-width: 370px;
   max-height: auto;
   margin-left: 150px;
   margin-right: 150px;
+}
+
+@media (min-width: 1200px) {
+  .logo {
+    margin-bottom: calc(var(--spacer) * 6);
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 780px) {
+  .logo {
+    max-width: 450px;
+  }
 }
