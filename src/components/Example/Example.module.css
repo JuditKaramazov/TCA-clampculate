@@ -1,0 +1,32 @@
+.divider {
+  border: none;
+  border-block-end: 1px solid rgb(255 255 255 / 0.15);
+  inline-size: min(90%, 12rem);
+  margin-block: calc(var(--space) * 1);
+  margin-inline: auto;
+}
+
+.example {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space);
+  inline-size: 100%;
+  padding-inline: min(3vw, var(--space));
+
+  & h2 {
+    color: var(--brand-cyan);
+    font-size: var(--font-size-4);
+    line-height: 1.15;
+    text-align: center;
+  }
+}
+
+.pen {
+  overflow: auto;
+  border-radius: 0.5em;
+  inline-size: 100%;
+  margin-inline: auto;
+  max-inline-size: 100%;
+  padding: 1em;
+  resize: horizontal;
+}
