@@ -1,0 +1,41 @@
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  gap: var(--space);
+  padding-block-start: var(--space);
+  padding-inline: min(3vw, var(--space));
+
+  & h2 {
+    flex-basis: 8ch;
+    flex-grow: 1;
+    color: var(--brand-cyan);
+    font-feature-settings: var(--headline-font-features);
+    font-size: var(--font-size-4);
+    line-height: 1.15;
+  }
+}
+
+.content {
+  flex-basis: 30ch;
+  flex-grow: 999;
+  font-size: clamp(1.25rem, calc(1.12rem + 0.55vw), 1.56rem);
+
+  & p {
+    font-size: var(--font-size-1);
+    line-height: 1.5;
+
+    & + p {
+      margin-block-start: 1.5em;
+    }
+  }
+
+  & a {
+    color: var(--brand-main);
+    transition: color 0.2s ease-in-out;
+  }
+
+  & a:hover {
+    color: var(--brand-cyan);
+  }
+}
