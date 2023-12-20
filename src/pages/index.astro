@@ -1,0 +1,57 @@
+---
+import "../styles/variables.css"
+import "../styles/global.css"
+
+import Header from "../components/Header/Header.astro"
+import Calculator from "../components/Calculator/Calculator.svelte"
+import Info from "../components/Info/Info.astro"
+import Example from "../components/Example/Example.astro"
+import About from "../components/About/About.astro"
+import Footer from "../components/Footer/Footer.astro"
+
+const title = "clamp(culate);"
+const description =
+  "A small tool that allows you to calculate the CSS clamp() formula."
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/img/favicon.png" type="image/png" sizes="any" />
+
+    <title>clamp(culate);</title>
+    <meta name="title" content={title} />
+    <meta name="description" content={description} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={Astro.site} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+
+    <meta property="author:card" content="summary_large_image" />
+    <meta property="author:url" content={Astro.site} />
+    <meta property="author:title" content={title} />
+    <meta property="author:description" content={description} />
+    <meta name="author:creator" content="@JuditKaramazov" />
+  </head>
+  <body>
+    <Header />
+
+    <main>
+      <p class="sr-only">
+        This is a small tool that allows you to calculate the CSS clamp() formula
+        required to smoothly adjust between a minimum and maximum value within a 
+        specified screen range. You can use negative values, too, handy in rare 
+        situations like margins or absolute positioning!
+      </p>
+      <Calculator client:load />
+      <Info />
+      <Example />
+      <About />
+    </main>
+
+    <Footer />
+    <script src="/js/details-utils.min.js" is:inline></script>
+  </body>
+</html>
