@@ -1,0 +1,5 @@
+Generating font size variables for a fluid type and spacing scale with [CSS clamp()](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp) is a blessing. Without relying on media queries, [fluid type](https://www.madebymike.com.au/writing/fluid-type-calc-examples/) means defining the [font-size](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size) value in a way that responds to the [viewport](https://developer.mozilla.org/en-US/docs/Web/CSS/Viewport_concepts) size, resulting in a "fluid" reduction - especially for larger text. 
+
+In simpler terms, [fluid typography](https://pressable.com/fluid-typography-understanding-what-it-is-why-and-how-to-use-it/) makes sure your text always looks good, no matter what device you're using. A tiny phone, a big computer screen... That's right: thanks to something called CSS clamp(), the text scales automatically with the screen size!
+
+**Complicated formulas?** Not again. For those simple scenarios where you just need to adjust between two values in a viewport range, we've got a tool for that!
