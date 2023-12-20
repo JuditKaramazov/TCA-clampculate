@@ -1,0 +1,54 @@
+.footer {
+  font-size: var(--font-size-0);
+  line-height: 1.3;
+  padding-block: var(--space);
+  padding-inline: var(--space);
+  text-align: center;
+
+  & a {
+    color: var(--brand-main);
+    margin-bottom: 20px;
+    transition: color 0.2s ease-in-out;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--brand-cyan);
+    }
+  }
+}
+
+.logo {
+  display: block;
+  max-width: 100px;
+  max-height: auto;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.githubLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--box-background-color);
+  border-radius: 20px;
+  font-size: var(--font-size--1);
+  font-weight: 500;
+  gap: 0.75ch;
+  padding-block: 0.375em;
+  padding-inline-end: 0.75em;
+  padding-inline-start: 0.375em;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+
+  &:is(:hover, :focus-visible) {
+    background-color: var(--brand-grey-dimmed);
+    color: var(--brand-main);
+    text-decoration: none;
+  }
+
+  & svg {
+    --size: 1.5em;
+    block-size: var(--size);
+    inline-size: var(--size);
+  }
+}
