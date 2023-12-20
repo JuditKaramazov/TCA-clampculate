@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  max-width: 500px;
+  max-height: auto;
+  margin-left: 150px;
+  margin-right: 150px;
+}
