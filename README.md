@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://clampculate.vercel.app">
-    <img src="https://raw.githubusercontent.com/JuditKaramazov/TCA-clampculate/main/public/img/clampculateLogo.png" width="300" alt="clamp(culate) original logo.">
+    <img src="https://raw.githubusercontent.com/JuditKaramazov/TCA-clampculate/main/public/img/clampculateLogo.png" width="400" alt="clamp(culate) original logo.">
   </a>
 </p>
 <div align="center">
