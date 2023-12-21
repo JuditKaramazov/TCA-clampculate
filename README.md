@@ -92,7 +92,7 @@ I am not so sure about the answer (not when it comes to myself, at least) - and 
 
 Well, it _could be_ if we were allowed to easily measure certain values and formulas in a more or less clear and comprehensive way, right? Say no more! Now, and under the cost of a single click, you'll have the opportunity to:
 
-- Understand better the significance and importance of **CSS clamp() and fluid typography**, which allows us for defining the font-size value in a way that responds to the viewport size - without relying on media queries. Is this 2048 already?
+- Understand better the significance and importance of **CSS clamp() and fluid typography**, which allows us to define the font-size value in a way that responds to the viewport size - without relying on media queries. Is this 2048 already?
 - Get a clear answer in case you might need to **to adjust between two values in a viewport range.**
 - Find an example of a site **using the formulas that I'm sharing with you** (that's right, guys: this site was created with CSS clamp(). Magic)!
 - Visualize some **intuitive examples.**
