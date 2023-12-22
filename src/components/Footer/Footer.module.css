@@ -19,10 +19,10 @@
 
 .logo {
   display: block;
-  max-width: 100px;
+  max-width: 150px;
   max-height: auto;
   margin: 0 auto;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .githubLink {
