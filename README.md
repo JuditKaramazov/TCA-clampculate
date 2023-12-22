@@ -123,7 +123,7 @@ Oh, and remember that you can make the (Christmas) Dinosaur extremely happy if y
 ---
 
 <h1 align="center">
-  <a href="https://karamazfolio.xyz/"><img src="https://raw.githubusercontent.com/JuditKaramazov/TCA-clampculate/main/public/img/christMazov.png" width="100" height="100" alt="Original Christmas-Karama logo asset.">
+  <a href="https://karamazfolio.xyz/"><img src="https://raw.githubusercontent.com/JuditKaramazov/TCA-clampculate/main/public/img/christMazov.gif" width="100" height="100" alt="Original Christmas-Karama logo asset.">
 </h1>
 <h2 align="center">
   <a href="https://www.buymeacoffee.com/JuditKaramazov" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 207px !important;" ></a>
