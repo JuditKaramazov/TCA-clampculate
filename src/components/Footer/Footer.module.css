@@ -19,10 +19,16 @@
 
 .logo {
   display: block;
-  max-width: 150px;
+  max-width: 120px;
   max-height: auto;
   margin: 0 auto;
   margin-bottom: 10px;
+}
+
+@media (min-width: 780px) {
+  .logo {
+    max-width: 145px;
+  }
 }
 
 .githubLink {
